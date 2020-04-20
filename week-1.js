@@ -4,7 +4,7 @@ function yearWasBorn(age) {
 
 function introduceing(name, age) {
   const theYear = yearWasBorn(age);
-  const yearsOld = 17;
+  const yearsOld = 45;
   const message =
     "Hello this is" +
     name +
@@ -16,7 +16,7 @@ function introduceing(name, age) {
   return message;
 }
 
-console.log(introduceing(" Yasmin ", 2003));
+console.log(introduceing(" Yasmin ", 1975));
 
 // function getAgeInDays(age) {
 //   return age * 365;
